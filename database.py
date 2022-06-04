@@ -15,8 +15,6 @@ LIMIT 1; """
 def connect():
     return sqlite3.connect("database.db")
 
-print('ok')
-
 
 def create_tables(connection):
     with connection:
